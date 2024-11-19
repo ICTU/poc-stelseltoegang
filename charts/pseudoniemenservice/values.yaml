@@ -32,10 +32,10 @@ controllers:
         resources:
           limits:
             cpu: 1
-            memory: 512Mi
+            memory: 612Mi
           requests:
             cpu: 1
-            memory: 512Mi
+            memory: 612Mi
         env:
           SPRING_PROFILES_ACTIVE: production
 service:
