@@ -51,7 +51,7 @@ ingress:
     annotations:
       external-dns.alpha.kubernetes.io/target: ingress.stelseltoegang.nl
       external-dns.alpha.kubernetes.io/cloudflare-proxied: "false"
-      cert-manager.io/cluster-issuer: letsencrypt-production
+      cert-manager.io/cluster-issuer: letsencrypt-prod
     hosts:
       - host: pseudoniemenservice.stelseltoegang.nl
         paths:
