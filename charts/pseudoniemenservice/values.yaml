@@ -38,6 +38,7 @@ controllers:
             memory: 612Mi
         env:
           SPRING_PROFILES_ACTIVE: production
+          pseudoniemenservice_token-private-key: i4dfBykN5Fjw9p3ADxvpRUhpbFSXepRSOcRGuaiJ4iQ=
 service:
   main:
     controller: main
