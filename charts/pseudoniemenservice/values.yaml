@@ -8,7 +8,7 @@ controllers:
     containers:
       main:
         image:
-          repository: ghcr.io/ictu/pseudoniemenservice
+          repository: ghcr.io/bhuism/pseudoniemenservice
           tag: latest
         probes:
           liveness:
