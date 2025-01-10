@@ -10,7 +10,7 @@ spec:
     namespace: pseudoniemenservice
   project: default
   source:
-    repoURL: https://github.com/ictu/poc-stelseltoegang.git
+    repoURL: https://github.com/bhuism/poc-stelseltoegang.git
     path: charts/pseudoniemenservice
     targetRevision: HEAD
   syncPolicy:
